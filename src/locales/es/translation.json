@@ -49,17 +49,32 @@
       {
         "title": "Implementación & Configuración Personalizada",
         "description": "No es un software genérico. Configuramos GoHighLevel específicamente para tu flujo de trabajo: clínicas con recordatorios médicos, firmas legales con seguimiento de casos, retailers con recuperación de carritos. Sistema listo para usar, no una caja vacía.",
-        "checklist": ["Setup Inicial 100% Personalizado", "Migración de Datos sin Pérdidas", "Integración con Herramientas que ya Usas", "Flujos de Trabajo Automáticos desde Día 1"]
+        "checklist": [
+          "Setup Inicial 100% Personalizado",
+          "Migración de Datos sin Pérdidas",
+          "Integración con Herramientas que ya Usas",
+          "Flujos de Trabajo Automáticos desde Día 1"
+        ]
       },
       {
         "title": "Capacitación & Soporte en Español 24/7",
         "description": "Entrenamos a tu equipo completo para que dominen el sistema (no solo \"cómo hacer clic aquí\"). Soporte bilingüe continuo en tu zona horaria, porque problemas a las 8pm no pueden esperar hasta mañana.",
-        "checklist": ["Sesiones de Capacitación para Todo el Team", "Soporte 24/7 por Chat, Email y WhatsApp", "Documentación Completa en Español", "Comunidad Exclusiva de Clientes PR"]
+        "checklist": [
+          "Sesiones de Capacitación para Todo el Team",
+          "Soporte 24/7 por Chat, Email y WhatsApp",
+          "Documentación Completa en Español",
+          "Comunidad Exclusiva de Clientes PR"
+        ]
       },
       {
         "title": "Desarrollo a la Medida (Enterprise)",
         "description": "¿Necesitas algo que no existe? Creamos integraciones únicas y funcionalidades avanzadas cuando lo estándar no basta. Para negocios con necesidades complejas o alto volumen que requieren soluciones exclusivas.",
-        "checklist": ["Integraciones API Personalizadas", "Funcionalidades Desarrolladas Solo Para Ti", "Automatizaciones Avanzadas Complejas", "Infraestructura Dedicada si es Necesario"]
+        "checklist": [
+          "Integraciones API Personalizadas",
+          "Funcionalidades Desarrolladas Solo Para Ti",
+          "Automatizaciones Avanzadas Complejas",
+          "Infraestructura Dedicada si es Necesario"
+        ]
       }
     ]
   },
@@ -71,7 +86,14 @@
         "step": "Paso 1",
         "title": "Diagnostico y Auditoria",
         "description": "Evaluamos tus necesidades e identificamos oportunidades de automatizacion para optimizar flujos de trabajo y mejorar eficiencia.",
-        "analysis": ["Analizando flujo de trabajo actual...", "Revision de sistemas", "Evaluacion de procesos", "Verificacion de velocidad", "Identificacion de trabajo manual", "Deteccion de tareas repetitivas"]
+        "analysis": [
+          "Analizando flujo de trabajo actual...",
+          "Revision de sistemas",
+          "Evaluacion de procesos",
+          "Verificacion de velocidad",
+          "Identificacion de trabajo manual",
+          "Deteccion de tareas repetitivas"
+        ]
       },
       {
         "step": "Paso 2",
@@ -84,8 +106,17 @@
         "title": "Implementacion y Configuracion",
         "description": "Implementamos y configuramos las soluciones de automatizacion en tu infraestructura existente con minima interrupcion.",
         "integration": {
-          "ourStack": ["Plataforma GoHighLevel", "Motores de Flujo de Trabajo", "Dashboard de Analytics"],
-          "yourStack": ["Sistema CRM", "Software ERP", "Bases de Datos", "Herramientas Actuales"]
+          "ourStack": [
+            "Plataforma GoHighLevel",
+            "Motores de Flujo de Trabajo",
+            "Dashboard de Analytics"
+          ],
+          "yourStack": [
+            "Sistema CRM",
+            "Software ERP",
+            "Bases de Datos",
+            "Herramientas Actuales"
+          ]
         }
       },
       {
@@ -93,9 +124,18 @@
         "title": "Capacitacion y Soporte Continuo",
         "description": "Entrenamos a tu equipo, refinamos el desempeno y ofrecemos soporte continuo para crecimiento a largo plazo.",
         "optimization": [
-          { "system": "Sistema de Recordatorios", "improvement": "Eficiencia aumentara en 30%" },
-          { "system": "Flujos de Trabajo", "improvement": "Actualizacion disponible..." },
-          { "system": "Sistema de Ventas", "improvement": "Configuracion optimizada" }
+          {
+            "system": "Sistema de Recordatorios",
+            "improvement": "Eficiencia aumentara en 30%"
+          },
+          {
+            "system": "Flujos de Trabajo",
+            "improvement": "Actualizacion disponible..."
+          },
+          {
+            "system": "Sistema de Ventas",
+            "improvement": "Configuracion optimizada"
+          }
         ]
       }
     ],
@@ -177,7 +217,13 @@
       }
     ],
     "trustedBy": "Confían en Nosotros Sectores Clave en PR",
-    "sectors": ["Clínicas Dentales", "Firmas de Abogados", "Retail Local", "Suplidores", "Restaurantes"]
+    "sectors": [
+      "Clínicas Dentales",
+      "Firmas de Abogados",
+      "Retail Local",
+      "Suplidores",
+      "Restaurantes"
+    ]
   },
   "caseStudies": {
     "title": "Casos de Éxito: Negocios Reales en Puerto Rico con Resultados Medibles",
@@ -188,10 +234,22 @@
         "description": "De 25% inasistencias a menos del 10% en 60 días para clínica en San Juan",
         "fullDescription": "Esta clínica en Santurce perdía miles mensuales por citas vacías (25% no-shows). Implementamos recordatorios automáticos por SMS y WhatsApp integrados con su calendario. Resultado: inasistencias bajaron a menos del 10%, 20% más citas facturables sin extender horario.",
         "metrics": [
-          { "label": "30% Menos Inasistencias", "value": "30%" },
-          { "label": "15 Horas Ahorradas/Semana", "value": "15h" },
-          { "label": "95% Pacientes Satisfechos", "value": "95%" },
-          { "label": "20% Más Citas Mensuales", "value": "20%" }
+          {
+            "label": "30% Menos Inasistencias",
+            "value": "30%"
+          },
+          {
+            "label": "15 Horas Ahorradas/Semana",
+            "value": "15h"
+          },
+          {
+            "label": "95% Pacientes Satisfechos",
+            "value": "95%"
+          },
+          {
+            "label": "20% Más Citas Mensuales",
+            "value": "20%"
+          }
         ]
       },
       {
@@ -199,10 +257,22 @@
         "description": "40% menos errores y 15 horas semanales ahorradas con automatización de pedidos",
         "fullDescription": "Esta suplidora para restaurantes manejaba todo en Excel: pedidos, inventario, facturación. Errores costaban clientes. Automatizamos el proceso completo y conectamos con proveedores principales. Ahora procesan el doble de volumen con el mismo equipo.",
         "metrics": [
-          { "label": "15 Horas Ahorradas/Semana", "value": "15h" },
-          { "label": "40% Menos Errores en Pedidos", "value": "40%" },
-          { "label": "Pedidos 50% Más Rápidos", "value": "50%" },
-          { "label": "Clientes Más Satisfechos", "value": "95%" }
+          {
+            "label": "15 Horas Ahorradas/Semana",
+            "value": "15h"
+          },
+          {
+            "label": "40% Menos Errores en Pedidos",
+            "value": "40%"
+          },
+          {
+            "label": "Pedidos 50% Más Rápidos",
+            "value": "50%"
+          },
+          {
+            "label": "Clientes Más Satisfechos",
+            "value": "95%"
+          }
         ]
       },
       {
@@ -210,10 +280,22 @@
         "description": "40% menos tiempo administrativo liberó a abogados para facturar más horas",
         "fullDescription": "Esta firma en Hato Rey perdía horas en tareas repetitivas: actualizar casos, recordar fechas límite, comunicar status a clientes. Automatizamos gestión de casos y comunicaciones. Resultado: más tiempo facturable, menos estrés, clientes mejor informados.",
         "metrics": [
-          { "label": "40% Menos Tiempo Administrativo", "value": "40%" },
-          { "label": "Seguimiento de Casos 100% Digital", "value": "100%" },
-          { "label": "Clientes Más Informados", "value": "90%" },
-          { "label": "Cumplimiento de Plazos Mejorado", "value": "95%" }
+          {
+            "label": "40% Menos Tiempo Administrativo",
+            "value": "40%"
+          },
+          {
+            "label": "Seguimiento de Casos 100% Digital",
+            "value": "100%"
+          },
+          {
+            "label": "Clientes Más Informados",
+            "value": "90%"
+          },
+          {
+            "label": "Cumplimiento de Plazos Mejorado",
+            "value": "95%"
+          }
         ]
       },
       {
@@ -221,10 +303,22 @@
         "description": "35% más ventas online en 3 meses con marketing automatizado",
         "fullDescription": "Esta tienda en Ponce tenía presencia limitada en redes y ventas inconsistentes. Creamos flujos automáticos para captar leads, nutrir clientes y recuperar carritos abandonados. En 90 días: ventas online +35%, 200+ leads nuevos mensuales, ROI de marketing 3:1.",
         "metrics": [
-          { "label": "35% Más Ventas Online", "value": "35%" },
-          { "label": "200+ Leads Captados/Mes", "value": "200+" },
-          { "label": "Tasa de Conversión Mejorada", "value": "25%" },
-          { "label": "ROI en Marketing 3:1", "value": "3:1" }
+          {
+            "label": "35% Más Ventas Online",
+            "value": "35%"
+          },
+          {
+            "label": "200+ Leads Captados/Mes",
+            "value": "200+"
+          },
+          {
+            "label": "Tasa de Conversión Mejorada",
+            "value": "25%"
+          },
+          {
+            "label": "ROI en Marketing 3:1",
+            "value": "3:1"
+          }
         ]
       }
     ],
