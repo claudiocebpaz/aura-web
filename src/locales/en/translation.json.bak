@@ -1,0 +1,325 @@
+{
+  "header": {
+    "brand": "Aura AI",
+    "lang": {
+      "label": "Idioma",
+      "es": "ES",
+      "en": "EN"
+    },
+    "nav": {
+      "home": "Inicio",
+      "services": "Servicios",
+      "process": "Proceso",
+      "caseStudies": "Casos",
+      "pricing": "Planes"
+    },
+    "cta": "Contactar"
+  },
+  "hero": {
+    "badge": "Tu Socio Estratégico en la Transformación Digital de Puerto Rico",
+    "titleLine1": "Transforma tu Negocio en Puerto Rico",
+    "titleLine2": "con Automatización IA que Genera Resultados Reales.",
+    "subtitle": "No vendemos software, entregamos transformación. Implementamos sistemas completos de automatización con IA para que clínicas, firmas legales y negocios locales ahorren 15+ horas semanales, eliminen errores costosos y escalen sin contratar más personal.",
+    "primaryCta": "Agenda tu Auditoría de Automatización Gratuita",
+    "secondaryCta": "Ver Casos de Éxito en la Isla"
+  },
+  "footer": {
+    "brandDescription": "Automatizacion inteligente para negocios en Puerto Rico. Optimiza operaciones con IA y sistemas listos para usar.",
+    "newsletter": {
+      "title": "Suscribete a nuestro newsletter",
+      "subtitle": "Recibe actualizaciones sobre automatizacion e IA.",
+      "placeholder": "Tu email"
+    },
+    "copyright": "Todos los derechos reservados.",
+    "privacy": "Politica de Privacidad",
+    "terms": "Terminos de Servicio"
+  },
+  "services": {
+    "titleLine1": "No Vendemos Software.",
+    "titleLine2": "Entregamos Transformación Completa.",
+    "subtitle": "Servicio \"Hecho Para Ti\" con GoHighLevel: implementación personalizada, capacitación en español y soporte continuo. Tu sistema estará listo desde el día uno, sin curva de aprendizaje técnica.",
+    "features": [
+      {
+        "title": "Implementación & Configuración Personalizada",
+        "description": "No es un software genérico. Configuramos GoHighLevel específicamente para tu flujo de trabajo: clínicas con recordatorios médicos, firmas legales con seguimiento de casos, retailers con recuperación de carritos. Sistema listo para usar, no una caja vacía.",
+        "checklist": ["Setup Inicial 100% Personalizado", "Migración de Datos sin Pérdidas", "Integración con Herramientas que ya Usas", "Flujos de Trabajo Automáticos desde Día 1"]
+      },
+      {
+        "title": "Capacitación & Soporte en Español 24/7",
+        "description": "Entrenamos a tu equipo completo para que dominen el sistema (no solo \"cómo hacer clic aquí\"). Soporte bilingüe continuo en tu zona horaria, porque problemas a las 8pm no pueden esperar hasta mañana.",
+        "checklist": ["Sesiones de Capacitación para Todo el Team", "Soporte 24/7 por Chat, Email y WhatsApp", "Documentación Completa en Español", "Comunidad Exclusiva de Clientes PR"]
+      },
+      {
+        "title": "Desarrollo a la Medida (Enterprise)",
+        "description": "¿Necesitas algo que no existe? Creamos integraciones únicas y funcionalidades avanzadas cuando lo estándar no basta. Para negocios con necesidades complejas o alto volumen que requieren soluciones exclusivas.",
+        "checklist": ["Integraciones API Personalizadas", "Funcionalidades Desarrolladas Solo Para Ti", "Automatizaciones Avanzadas Complejas", "Infraestructura Dedicada si es Necesario"]
+      }
+    ]
+  },
+  "process": {
+    "title": "Nuestro Proceso para Transformar tu Negocio en Puerto Rico",
+    "subtitle": "Disenamos, implementamos y capacitamos en sistemas de automatizacion que te ayudan a trabajar de manera mas inteligente, no mas dificil.",
+    "steps": [
+      {
+        "step": "Paso 1",
+        "title": "Diagnostico y Auditoria",
+        "description": "Evaluamos tus necesidades e identificamos oportunidades de automatizacion para optimizar flujos de trabajo y mejorar eficiencia.",
+        "analysis": ["Analizando flujo de trabajo actual...", "Revision de sistemas", "Evaluacion de procesos", "Verificacion de velocidad", "Identificacion de trabajo manual", "Deteccion de tareas repetitivas"]
+      },
+      {
+        "step": "Paso 2",
+        "title": "Propuesta y Planificacion",
+        "description": "Nuestro equipo crea un plan de implementacion personalizado para tu negocio, con objetivos claros y cronograma.",
+        "code": "class PlanImplementacion:\n    def __init__(self, cliente, objetivos):\n        self.cliente = cliente\n        self.objetivos = objetivos\n        self.estado = \"en_planificacion\"\n    \n    def generar_propuesta(self):\n        if self.objetivos:\n            self.estado = \"propuesta_lista\"\n            return \"Propuesta personalizada generada!\"\n        else:\n            return \"Definir objetivos primero.\""
+      },
+      {
+        "step": "Paso 3",
+        "title": "Implementacion y Configuracion",
+        "description": "Implementamos y configuramos las soluciones de automatizacion en tu infraestructura existente con minima interrupcion.",
+        "integration": {
+          "ourStack": ["Plataforma GoHighLevel", "Motores de Flujo de Trabajo", "Dashboard de Analytics"],
+          "yourStack": ["Sistema CRM", "Software ERP", "Bases de Datos", "Herramientas Actuales"]
+        }
+      },
+      {
+        "step": "Paso 4",
+        "title": "Capacitacion y Soporte Continuo",
+        "description": "Entrenamos a tu equipo, refinamos el desempeno y ofrecemos soporte continuo para crecimiento a largo plazo.",
+        "optimization": [
+          { "system": "Sistema de Recordatorios", "improvement": "Eficiencia aumentara en 30%" },
+          { "system": "Flujos de Trabajo", "improvement": "Actualizacion disponible..." },
+          { "system": "Sistema de Ventas", "improvement": "Configuracion optimizada" }
+        ]
+      }
+    ],
+    "labels": {
+      "ourSolution": "Nuestra solucion",
+      "yourStack": "Tu stack",
+      "checking": "Verificando"
+    }
+  },
+  "pricing": {
+    "title": "Inversion que Genera Resultados",
+    "subtitle": "Planes disenados para negocios en Puerto Rico que buscan transformacion real.",
+    "note": "Cada plan incluye configuracion inicial personalizada. Los precios mensuales incluyen licencia de plataforma y soporte continuo.",
+    "plans": [
+      {
+        "name": "Transformacion Basica",
+        "price": "$297",
+        "description": "Para negocios pequenos que inician su transformacion digital.",
+        "features": [
+          "Configuracion inicial personalizada",
+          "Migracion de datos basica",
+          "Soporte por email y chat",
+          "1 sesion de capacitacion",
+          "Acceso a plataforma GoHighLevel",
+          "Actualizaciones mensuales"
+        ],
+        "buttonText": "Agendar Consulta"
+      },
+      {
+        "name": "Aceleracion Empresarial",
+        "price": "$497",
+        "description": "Para negocios en crecimiento que buscan escalar rapidamente.",
+        "features": [
+          "Configuracion avanzada con flujos personalizados",
+          "Integraciones con herramientas clave",
+          "Soporte prioritario 24/7",
+          "3 sesiones de capacitacion",
+          "Acceso a plataforma premium",
+          "Reportes de ROI mensuales",
+          "Comunidad de clientes PR"
+        ],
+        "buttonText": "Agendar Consulta"
+      },
+      {
+        "name": "Enterprise",
+        "price": "Personalizado",
+        "description": "Para organizaciones grandes con necesidades complejas.",
+        "features": [
+          "Desarrollo a la medida e integraciones API",
+          "Soporte dedicado con gerente de cuenta",
+          "Capacitacion corporativa ilimitada",
+          "Infraestructura dedicada si es necesario",
+          "Garantias SLA",
+          "Opciones de implementacion on-premise"
+        ],
+        "buttonText": "Contactar Ventas"
+      }
+    ],
+    "mostPopular": "MAS POPULAR"
+  },
+  "testimonials": {
+    "title": "Lo que dicen negocios reales en Puerto Rico",
+    "subtitle": "No teoría. Resultados medibles de clínicas, firmas y comercios que ya transformaron sus operaciones.",
+    "testimonials": [
+      {
+        "name": "María Rodríguez",
+        "role": "Dueña de Panadería La Esquina, Ponce",
+        "content": "Aura AI nos cambió el juego. Antes perdíamos 10+ horas semanales en facturación manual y llamando clientes para pedidos especiales. Ahora todo es automático: confirmaciones, recordatorios, hasta el seguimiento post-venta. Recuperamos tiempo para lo que importa: hornear el mejor pan de Ponce. Las ventas de pedidos personalizados subieron 25% en 3 meses."
+      },
+      {
+        "name": "Carlos Méndez",
+        "role": "Director de Clínica Dental Sonrisa Perfecta, San Juan",
+        "content": "Las inasistencias nos costaban miles al mes. Con el sistema que Aura AI implementó (recordatorios automáticos por SMS y WhatsApp en español), bajamos de 25% a menos de 10% de no-shows en solo 2 meses. Eso significa 20% más citas facturables sin expandir el horario. El equipo está menos estresado y los pacientes aprecian la comunicación profesional."
+      },
+      {
+        "name": "Ana Torres",
+        "role": "Gerente de Suplidora Mayorista Caribe, Bayamón",
+        "content": "Pasamos de Excel sheets a un sistema que maneja pedidos, inventario y facturación automáticamente. Resultado: 15 horas ahorradas por semana, 40% menos errores en entregas, y clientes más contentos porque sus pedidos llegan exactos. La inversión se pagó sola en 8 semanas. Ahora podemos crecer sin contratar más personal administrativo."
+      }
+    ],
+    "trustedBy": "Confían en Nosotros Sectores Clave en PR",
+    "sectors": ["Clínicas Dentales", "Firmas de Abogados", "Retail Local", "Suplidores", "Restaurantes"]
+  },
+  "caseStudies": {
+    "title": "Casos de Éxito: Negocios Reales en Puerto Rico con Resultados Medibles",
+    "subtitle": "No promesas. Data real de clínicas, firmas y comercios en la isla que ya están ahorrando tiempo, reduciendo errores y generando más ingresos.",
+    "studies": [
+      {
+        "title": "Clínica Dental Sonrisa Perfecta",
+        "description": "De 25% inasistencias a menos del 10% en 60 días para clínica en San Juan",
+        "fullDescription": "Esta clínica en Santurce perdía miles mensuales por citas vacías (25% no-shows). Implementamos recordatorios automáticos por SMS y WhatsApp integrados con su calendario. Resultado: inasistencias bajaron a menos del 10%, 20% más citas facturables sin extender horario.",
+        "metrics": [
+          { "label": "30% Menos Inasistencias", "value": "30%" },
+          { "label": "15 Horas Ahorradas/Semana", "value": "15h" },
+          { "label": "95% Pacientes Satisfechos", "value": "95%" },
+          { "label": "20% Más Citas Mensuales", "value": "20%" }
+        ]
+      },
+      {
+        "title": "Suplidora Mayorista Caribe",
+        "description": "40% menos errores y 15 horas semanales ahorradas con automatización de pedidos",
+        "fullDescription": "Esta suplidora para restaurantes manejaba todo en Excel: pedidos, inventario, facturación. Errores costaban clientes. Automatizamos el proceso completo y conectamos con proveedores principales. Ahora procesan el doble de volumen con el mismo equipo.",
+        "metrics": [
+          { "label": "15 Horas Ahorradas/Semana", "value": "15h" },
+          { "label": "40% Menos Errores en Pedidos", "value": "40%" },
+          { "label": "Pedidos 50% Más Rápidos", "value": "50%" },
+          { "label": "Clientes Más Satisfechos", "value": "95%" }
+        ]
+      },
+      {
+        "title": "Bufete Legal Hernández & Asociados",
+        "description": "40% menos tiempo administrativo liberó a abogados para facturar más horas",
+        "fullDescription": "Esta firma en Hato Rey perdía horas en tareas repetitivas: actualizar casos, recordar fechas límite, comunicar status a clientes. Automatizamos gestión de casos y comunicaciones. Resultado: más tiempo facturable, menos estrés, clientes mejor informados.",
+        "metrics": [
+          { "label": "40% Menos Tiempo Administrativo", "value": "40%" },
+          { "label": "Seguimiento de Casos 100% Digital", "value": "100%" },
+          { "label": "Clientes Más Informados", "value": "90%" },
+          { "label": "Cumplimiento de Plazos Mejorado", "value": "95%" }
+        ]
+      },
+      {
+        "title": "Tienda de Moda Ponce Fashion",
+        "description": "35% más ventas online en 3 meses con marketing automatizado",
+        "fullDescription": "Esta tienda en Ponce tenía presencia limitada en redes y ventas inconsistentes. Creamos flujos automáticos para captar leads, nutrir clientes y recuperar carritos abandonados. En 90 días: ventas online +35%, 200+ leads nuevos mensuales, ROI de marketing 3:1.",
+        "metrics": [
+          { "label": "35% Más Ventas Online", "value": "35%" },
+          { "label": "200+ Leads Captados/Mes", "value": "200+" },
+          { "label": "Tasa de Conversión Mejorada", "value": "25%" },
+          { "label": "ROI en Marketing 3:1", "value": "3:1" }
+        ]
+      }
+    ],
+    "ctaTitle": "¿Listo para resultados como estos?",
+    "ctaSubtitle": "Únete a 30+ negocios en Puerto Rico que ya automatizaron sus operaciones y están viendo resultados medibles.",
+    "ctaButton": "Agenda tu Auditoría de Automatización Gratuita",
+    "impactLabel": "Impacto:"
+  },
+  "benefits": {
+    "title": "Por Qué Negocios en Puerto Rico Eligen Aura AI",
+    "subtitle": "Descubre cómo la automatización con IA transforma operaciones para negocios locales: desde clínicas en Ponce hasta firmas legales en San Juan.",
+    "benefits": [
+      {
+        "title": "Ahorra 15+ Horas Semanales",
+        "description": "Clínicas dentales eliminan llamadas de recordatorio manual. Firmas legales automatizan seguimiento de casos. Retailers recuperan tiempo perdido en inventario y facturación repetitiva."
+      },
+      {
+        "title": "Reduce Inasistencias hasta 30%",
+        "description": "Recordatorios automáticos por SMS y WhatsApp en español aseguran que tus clientes lleguen. Una clínica en Santurce redujo sus no-shows de 25% a menos de 10% en 60 días."
+      },
+      {
+        "title": "Elimina Errores en Pedidos y Facturación",
+        "description": "Suplidores en Bayamón redujeron errores en pedidos en 40%. Automatización significa datos exactos, clientes satisfechos y menos pérdidas por equivocaciones manuales."
+      },
+      {
+        "title": "Escala sin Contratar Más Personal",
+        "description": "Bufetes legales manejan 50% más casos sin agrandar el equipo. Retail local procesa el doble de pedidos online sin costos adicionales de nómina. IA trabaja 24/7 sin vacaciones."
+      },
+      {
+        "title": "Decisiones Basadas en Data Real",
+        "description": "Dashboards en español te muestran qué funciona: qué campañas generan más ventas, qué servicios tienen mayor demanda, cuándo tus clientes están más activos en la isla."
+      },
+      {
+        "title": "Soporte Local que Habla tu Idioma",
+        "description": "No más tickets en inglés sin respuesta. Equipo bilingüe en tu zona horaria. Entendemos cómo se trabaja en PR y resolvemos problemas rápido, sin complicaciones corporativas."
+      }
+    ],
+    "learnMore": "Saber más",
+    "stats": {
+      "businesses": "30+",
+      "businessesLabel": "Negocios en PR Transformados",
+      "efficiency": "60%",
+      "efficiencyLabel": "Ganancia en Eficiencia",
+      "costReduction": "40%",
+      "costReductionLabel": "Reducción de Costos",
+      "uptime": "99.9%",
+      "uptimeLabel": "Disponibilidad Garantizada"
+    }
+  },
+  "faq": {
+    "title": "Preguntas frecuentes",
+    "subtitle": "Todo lo que necesitas saber sobre nuestros servicios y facturacion.",
+    "questions": [
+      {
+        "question": "Como puede la automatizacion con IA ayudar a mi negocio en Puerto Rico?",
+        "answer": "La automatizacion con IA puede optimizar tareas repetitivas, mejorar precision, reducir costos operativos y proveer insights basados en datos para mejor toma de decisiones. Ayuda a negocios a escalar eficientemente sin aumentar carga laboral."
+      },
+      {
+        "question": "Es dificil integrar la automatizacion con IA?",
+        "answer": "Para nada! Nuestro equipo maneja todo el proceso de integracion con minima interrupcion a tus flujos de trabajo existentes. Aseguramos compatibilidad con tus sistemas actuales y proveemos capacitacion completa."
+      },
+      {
+        "question": "Que industrias en Puerto Rico pueden beneficiarse?",
+        "answer": "Practicamente todas! Hemos implementado soluciones exitosas para healthcare, finanzas, retail, manufactura, logistica y servicios profesionales en la isla. Cada solucion se adapta a necesidades especificas del sector."
+      },
+      {
+        "question": "Necesito conocimiento tecnico para usar la automatizacion con IA?",
+        "answer": "No se requiere expertise tecnico. Nuestras soluciones tienen interfaces amigables, y proveemos capacitacion completa y soporte continuo. Tu te enfocas en tu negocio mientras nuestra IA maneja la automatizacion."
+      },
+      {
+        "question": "Que tipo de soporte ofrecen?",
+        "answer": "Ofrecemos soporte al cliente 24/7, gerentes de cuenta dedicados para clientes empresariales, documentacion completa, sesiones de capacitacion regulares y monitoreo proactivo del sistema para asegurar desempeno optimo."
+      }
+    ],
+    "stillHaveQuestions": "Aun tienes preguntas?",
+    "cantFindAnswer": "No encuentras la respuesta que buscas? Chatea con nuestro equipo amigable.",
+    "contactUs": "Contactanos"
+  },
+  "finalCta": {
+    "titleLine1": "Deja que la IA Trabaje Para que tu Negocio en Puerto Rico",
+    "titleLine2": "Crezca Más Rápido y Genere Más Ingresos",
+    "subtitle": "Únete a 30+ negocios en la isla que han ahorrado 15+ horas semanales, eliminado errores costosos y escalado sin contratar más personal.",
+    "primaryCta": "Agenda tu Auditoría de Automatización Gratuita",
+    "secondaryCta": "Ver casos de éxito locales",
+    "features": [
+      {
+        "title": "Implementación en Semanas, No Meses",
+        "description": "Sistema funcionando en 2-4 semanas. Nuestro proceso probado asegura entrega rápida de valor sin meses de \"configuración\"."
+      },
+      {
+        "title": "ROI Comprobado en 90 Días",
+        "description": "95% de nuestros clientes recuperan su inversión en los primeros 3 meses. Ahorro de tiempo + reducción de errores = resultados medibles."
+      },
+      {
+        "title": "Soporte Local que Habla tu Idioma",
+        "description": "Equipo bilingüe dedicado en tu zona horaria. Actualizaciones regulares, capacitación continua, y alguien que entiende cómo se trabaja en PR."
+      }
+    ],
+    "readyTitle": "¿Listo para Dejar de Perder Tiempo en Tareas Repetitivas?",
+    "readySubtitle": "Agenda una auditoría gratuita y descubre cuántas horas semanales puedes ahorrar con automatización IA personalizada para tu negocio.",
+    "getStarted": "Agenda Auditoría Gratuita",
+    "watchDemo": "Ver Demo en Vivo",
+    "noCreditCard": "Sin tarjeta de crédito • Auditoría 100% gratis • Sin compromisos"
+  }
+}
