@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&display=swap');
+@import "tailwindcss";
+
+@theme {
+  /* Breakpoints EXACTOS de Xtract */
+  --breakpoint-mobile: 809px;
+  --breakpoint-tablet: 810px;
+  --breakpoint-desktop: 1200px;
+
+  /* Colores EXACTOS del Reference Site */
+  --color-primary: #814AC8;
+  /* Vibrant Purple from reference */
+  --color-primary-glow: rgba(129, 74, 200, 0.5);
+  --color-background: #000000;
+  /* Pure Black */
+  --color-surface: rgba(255, 255, 255, 0.05);
+  /* Glass effect base */
+  --color-surface-hover: rgba(255, 255, 255, 0.08);
+  --color-text: #FFFFFF;
+  /* White headers */
+  --color-text-muted: #CCCCCC;
+  /* Light gray body */
+  --color-border: rgba(255, 255, 255, 0.1);
+
+  /* Fuentes */
+  --font-sans: 'Figtree', system-ui, sans-serif;
+
+  /* Gradientes */
+  --gradient-glow: radial-gradient(circle at center, var(--color-primary) 0%, transparent 70%);
+}
+
+/* Utilidades personalizadas */
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+
+  .hide-scrollbar {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+
+  .hide-scrollbar::-webkit-scrollbar {
+    display: none;
+  }
+
+  /* Glassmorphism Utilities */
+  .glass {
+    background: var(--color-surface);
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+    border: 1px solid var(--color-border);
+  }
+
+  .glass-button {
+    background: rgba(13, 13, 13, 0.6);
+    backdrop-filter: blur(10px);
+    border: 1px solid var(--color-border);
+    transition: all 0.3s ease;
+  }
+
+  .glass-button:hover {
+    background: rgba(255, 255, 255, 0.1);
+    border-color: rgba(255, 255, 255, 0.2);
+  }
+}
+
+/* Estilos base */
+:root {
+  color-scheme: dark;
+  font-family: var(--font-sans);
+  background-color: var(--color-background);
+  color: var(--color-text);
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  overflow-x: hidden;
+  background: var(--color-background);
+}
+
+/* Selection color matches theme */
+::selection {
+  background: var(--color-primary);
+  color: white;
+}
