@@ -17,9 +17,9 @@ export const Route = createFileRoute('/')({
 function HomePage() {
   return (
     <>
-      <Helmet>
-        <title>Xtract - AI automation agency</title>
-        <meta name="description" content="Xtract brings AI automation to your fingertips & streamline tasks. Intelligent automation for modern businesses." />
+       <Helmet>
+        <title>Aura AI - Tu Socio en la Transformación Digital de Puerto Rico</title>
+        <meta name="description" content="Aura AI implementa sistemas de automatización con IA para negocios en Puerto Rico. Servicio Done-For-You, capacitación y desarrollo a la medida." />
       </Helmet>
       
       <div className="space-y-20 md:space-y-32 pb-20">

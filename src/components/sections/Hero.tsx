@@ -1,8 +1,11 @@
 import { Link } from '@tanstack/react-router'
 import { motion } from 'framer-motion'
 import { ArrowRight, Play } from 'lucide-react'
+import { useTranslation } from 'react-i18next'
 
 export default function Hero() {
+  const { t } = useTranslation()
+
   return (
     <section className="relative min-h-[90vh] flex items-center justify-center overflow-hidden pt-20">
 
@@ -27,29 +30,28 @@ export default function Hero() {
             <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-[#814AC8] opacity-75"></span>
             <span className="relative inline-flex rounded-full h-2 w-2 bg-[#814AC8]"></span>
           </span>
-          <span className="text-sm text-gray-300 font-medium">New: Automated Lead Gen</span>
+          <span className="text-sm text-gray-300 font-medium">🚀 {t('hero.badge')}</span>
         </motion.div>
 
-        {/* Main Heading */}
+         {/* Main Heading */}
         <motion.h1
           initial={{ opacity: 0, y: 30 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.5, delay: 0.1 }}
           className="text-5xl md:text-7xl lg:text-8xl font-bold tracking-tight text-white mb-8 leading-tight text-balance"
         >
-          Intelligent Automation <br className="hidden md:block" />
-          <span className="text-gray-400">for Modern Business.</span>
+          {t('hero.titleLine1')} <br className="hidden md:block" />
+          <span className="text-gray-400">{t('hero.titleLine2')}</span>
         </motion.h1>
 
-        {/* Subheading */}
+         {/* Subheading */}
         <motion.p
           initial={{ opacity: 0, y: 30 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.5, delay: 0.2 }}
           className="text-lg md:text-xl text-gray-400 mb-12 max-w-2xl mx-auto leading-relaxed"
         >
-          Xtract helps you streamline operations with cutting-edge AI agents.
-          Stop wasting time on manual tasks and start scaling.
+          {t('hero.subtitle')}
         </motion.p>
 
         {/* Buttons */}
@@ -64,7 +66,7 @@ export default function Hero() {
             className="group relative px-8 py-4 bg-[#814AC8] text-white text-lg font-semibold rounded-full overflow-hidden transition-transform hover:scale-105 shadow-[0_0_40px_-5px_rgba(129,74,200,0.5)]"
           >
             <span className="relative z-10 flex items-center">
-              Start Automating
+              {t('hero.primaryCta')}
               <ArrowRight className="ml-2 w-5 h-5 transition-transform group-hover:translate-x-1" />
             </span>
             <div className="absolute inset-0 bg-white/20 translate-y-full group-hover:translate-y-0 transition-transform duration-300" />
@@ -74,7 +76,7 @@ export default function Hero() {
             className="px-8 py-4 bg-white/5 text-white border border-white/10 rounded-full hover:bg-white/10 transition-colors text-lg font-medium flex items-center backdrop-blur-sm"
           >
             <Play className="mr-2 w-5 h-5 fill-white" />
-            Watch Demo
+            {t('hero.secondaryCta')}
           </button>
         </motion.div>
 

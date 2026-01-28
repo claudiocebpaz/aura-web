@@ -1,45 +1,37 @@
+import React from 'react'
 import { motion } from 'framer-motion'
 import { Workflow, Bot, TrendingUp, Check } from 'lucide-react'
+import { useTranslation } from 'react-i18next'
 
-const features = [
-  {
-    title: 'Automated Operations',
-    description: 'Streamline your internal processes with intelligent workflows. We identify bottlenecks and deploy AI agents to handle repetitive tasks.',
-    checklist: ['Data Entry Automation', 'Document Processing', 'Error Reduction'],
-    icon: Workflow,
-    align: 'left' // Text on left, Image on right
-  },
-  {
-    title: '24/7 AI Assistants',
-    description: 'Deploy always-on support agents that handle customer inquiries, schedule meetings, and filter leads without human intervention.',
-    checklist: ['Instant Response Time', 'Multi-channel Support', 'Natural Language Understanding'],
-    icon: Bot,
-    align: 'right' // Image on left, Text on right
-  },
-  {
-    title: 'Growth Engines',
-    description: 'Scale your marketing and sales efforts with autonomous agents that find, qualify, and nurture leads automatically.',
-    checklist: ['Automated Outreach', 'Lead Scoring', 'Content Personalization'],
-    icon: TrendingUp,
-    align: 'left'
-  }
-]
+const icons = [Workflow, Bot, TrendingUp]
+
+
 
 export default function Services() {
+  const { t } = useTranslation()
+  
+  const features = t('services.features', { returnObjects: true }) as Array<{
+    title: string
+    description: string
+    checklist: string[]
+  }>
+  
+
+  
   return (
     <section id="services" className="py-32 bg-black relative">
       <div className="container mx-auto px-6 max-w-7xl">
 
         {/* Section Header */}
         <div className="text-center mb-32 max-w-3xl mx-auto">
-          <motion.h2
+           <motion.h2
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.5 }}
             className="text-4xl md:text-6xl font-bold text-white mb-8 tracking-tight"
           >
-            Capabilities that scale <br className="hidden md:block" />
-            <span className="text-gray-500">with your vision.</span>
+            {t('services.titleLine1')} <br className="hidden md:block" />
+            <span className="text-gray-500">{t('services.titleLine2')}</span>
           </motion.h2>
           <motion.p
             initial={{ opacity: 0, y: 20 }}
@@ -47,24 +39,24 @@ export default function Services() {
             transition={{ duration: 0.5, delay: 0.1 }}
             className="text-xl text-gray-400"
           >
-            We don't just build software. We build autonomous systems that drive real business results.
+            {t('services.subtitle')}
           </motion.p>
         </div>
 
-        {/* Features List */}
+         {/* Features List */}
         <div className="space-y-32">
           {features.map((feature, index) => (
-            <div key={index} className={`flex flex-col ${feature.align === 'right' ? 'lg:flex-row-reverse' : 'lg:flex-row'} items-center gap-12 lg:gap-24`}>
+            <div key={index} className={`flex flex-col ${index === 1 ? 'lg:flex-row-reverse' : 'lg:flex-row'} items-center gap-12 lg:gap-24`}>
 
-              {/* Text Content */}
+               {/* Text Content */}
               <motion.div
-                initial={{ opacity: 0, x: feature.align === 'left' ? -50 : 50 }}
+                initial={{ opacity: 0, x: index === 1 ? 50 : -50 }}
                 whileInView={{ opacity: 1, x: 0 }}
                 transition={{ duration: 0.6 }}
                 className="flex-1"
               >
                 <div className="w-12 h-12 rounded-2xl bg-white/5 border border-white/10 flex items-center justify-center mb-8">
-                  <feature.icon className="w-6 h-6 text-white" />
+                  {icons[index] && React.createElement(icons[index], { className: "w-6 h-6 text-white" })}
                 </div>
                 <h3 className="text-3xl md:text-5xl font-bold text-white mb-6">
                   {feature.title}
