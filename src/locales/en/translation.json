@@ -5,10 +5,10 @@
       "label": "Language",
       "es": "ES",
       "en": "EN",
-      "current": "🇺🇸 English",
+      "current": "English",
       "options": {
-        "es": "🇪🇸 Español",
-        "en": "🇺🇸 English"
+        "es": "Español",
+        "en": "English"
       },
       "ariaLabel": "Language selector",
       "selectLanguage": "Select language"
@@ -49,17 +49,32 @@
       {
         "title": "Personalized Implementation & Configuration",
         "description": "Not generic software. We configure GoHighLevel specifically for your workflow: clinics with medical reminders, law firms with case tracking, retailers with cart recovery. Ready-to-use system, not an empty box.",
-        "checklist": ["100% Personalized Initial Setup", "Data Migration Without Losses", "Integration with Tools You Already Use", "Automatic Workflows from Day 1"]
+        "checklist": [
+          "100% Personalized Initial Setup",
+          "Data Migration Without Losses",
+          "Integration with Tools You Already Use",
+          "Automatic Workflows from Day 1"
+        ]
       },
       {
         "title": "Training & 24/7 Support in Spanish",
         "description": "We train your entire team to master the system (not just \"how to click here\"). Continuous bilingual support in your time zone, because problems at 8pm can't wait until tomorrow.",
-        "checklist": ["Training Sessions for the Whole Team", "24/7 Support via Chat, Email, and WhatsApp", "Complete Documentation in Spanish", "Exclusive PR Client Community"]
+        "checklist": [
+          "Training Sessions for the Whole Team",
+          "24/7 Support via Chat, Email, and WhatsApp",
+          "Complete Documentation in Spanish",
+          "Exclusive PR Client Community"
+        ]
       },
       {
         "title": "Custom Development (Enterprise)",
         "description": "Need something that doesn't exist? We create unique integrations and advanced functionalities when standard isn't enough. For businesses with complex needs or high volume requiring exclusive solutions.",
-        "checklist": ["Custom API Integrations", "Functionalities Built Just for You", "Complex Advanced Automations", "Dedicated Infrastructure if Needed"]
+        "checklist": [
+          "Custom API Integrations",
+          "Functionalities Built Just for You",
+          "Complex Advanced Automations",
+          "Dedicated Infrastructure if Needed"
+        ]
       }
     ]
   },
@@ -71,7 +86,14 @@
         "step": "Step 1",
         "title": "Diagnosis & Audit",
         "description": "We assess your needs and identify automation opportunities to optimize workflows and improve efficiency.",
-        "analysis": ["Analyzing current workflow...", "System review", "Process evaluation", "Speed verification", "Manual work identification", "Repetitive task detection"]
+        "analysis": [
+          "Analyzing current workflow...",
+          "System review",
+          "Process evaluation",
+          "Speed verification",
+          "Manual work identification",
+          "Repetitive task detection"
+        ]
       },
       {
         "step": "Step 2",
@@ -84,8 +106,17 @@
         "title": "Implementation & Configuration",
         "description": "We implement and configure automation solutions into your existing infrastructure with minimal disruption.",
         "integration": {
-          "ourStack": ["GoHighLevel Platform", "Workflow Engines", "Analytics Dashboard"],
-          "yourStack": ["CRM System", "ERP Software", "Databases", "Current Tools"]
+          "ourStack": [
+            "GoHighLevel Platform",
+            "Workflow Engines",
+            "Analytics Dashboard"
+          ],
+          "yourStack": [
+            "CRM System",
+            "ERP Software",
+            "Databases",
+            "Current Tools"
+          ]
         }
       },
       {
@@ -93,9 +124,18 @@
         "title": "Training & Continuous Support",
         "description": "We train your team, refine performance, and offer continuous support for long-term growth.",
         "optimization": [
-          { "system": "Reminder System", "improvement": "Efficiency will increase by 30%" },
-          { "system": "Workflows", "improvement": "Update available..." },
-          { "system": "Sales System", "improvement": "Optimized configuration" }
+          {
+            "system": "Reminder System",
+            "improvement": "Efficiency will increase by 30%"
+          },
+          {
+            "system": "Workflows",
+            "improvement": "Update available..."
+          },
+          {
+            "system": "Sales System",
+            "improvement": "Optimized configuration"
+          }
         ]
       }
     ],
@@ -177,7 +217,13 @@
       }
     ],
     "trustedBy": "Trusted by Key Sectors in PR",
-    "sectors": ["Dental Clinics", "Law Firms", "Local Retail", "Suppliers", "Restaurants"]
+    "sectors": [
+      "Dental Clinics",
+      "Law Firms",
+      "Local Retail",
+      "Suppliers",
+      "Restaurants"
+    ]
   },
   "caseStudies": {
     "title": "Success Stories: Real Puerto Rico Businesses with Measurable Results",
@@ -188,10 +234,22 @@
         "description": "From 25% no-shows to less than 10% in 60 days for clinic in San Juan",
         "fullDescription": "This clinic in Santurce lost thousands monthly due to empty appointments (25% no-shows). We implemented automatic SMS and WhatsApp reminders integrated with their calendar. Result: no-shows dropped to less than 10%, 20% more billable appointments without extending hours.",
         "metrics": [
-          { "label": "30% Fewer No-Shows", "value": "30%" },
-          { "label": "15 Hours Saved/Week", "value": "15h" },
-          { "label": "95% Patient Satisfaction", "value": "95%" },
-          { "label": "20% More Monthly Appointments", "value": "20%" }
+          {
+            "label": "30% Fewer No-Shows",
+            "value": "30%"
+          },
+          {
+            "label": "15 Hours Saved/Week",
+            "value": "15h"
+          },
+          {
+            "label": "95% Patient Satisfaction",
+            "value": "95%"
+          },
+          {
+            "label": "20% More Monthly Appointments",
+            "value": "20%"
+          }
         ]
       },
       {
@@ -199,10 +257,22 @@
         "description": "40% fewer errors and 15 weekly hours saved with order automation",
         "fullDescription": "This restaurant supplier handled everything in Excel: orders, inventory, billing. Errors cost customers. We automated the complete process and connected with main suppliers. Now they process double the volume with the same team.",
         "metrics": [
-          { "label": "15 Hours Saved/Week", "value": "15h" },
-          { "label": "40% Fewer Order Errors", "value": "40%" },
-          { "label": "Orders 50% Faster", "value": "50%" },
-          { "label": "More Satisfied Customers", "value": "95%" }
+          {
+            "label": "15 Hours Saved/Week",
+            "value": "15h"
+          },
+          {
+            "label": "40% Fewer Order Errors",
+            "value": "40%"
+          },
+          {
+            "label": "Orders 50% Faster",
+            "value": "50%"
+          },
+          {
+            "label": "More Satisfied Customers",
+            "value": "95%"
+          }
         ]
       },
       {
@@ -210,10 +280,22 @@
         "description": "40% less administrative time freed lawyers to bill more hours",
         "fullDescription": "This firm in Hato Rey lost hours on repetitive tasks: updating cases, remembering deadlines, communicating status to clients. We automated case management and communications. Result: more billable time, less stress, better-informed clients.",
         "metrics": [
-          { "label": "40% Less Administrative Time", "value": "40%" },
-          { "label": "100% Digital Case Tracking", "value": "100%" },
-          { "label": "Better Informed Clients", "value": "90%" },
-          { "label": "Improved Deadline Compliance", "value": "95%" }
+          {
+            "label": "40% Less Administrative Time",
+            "value": "40%"
+          },
+          {
+            "label": "100% Digital Case Tracking",
+            "value": "100%"
+          },
+          {
+            "label": "Better Informed Clients",
+            "value": "90%"
+          },
+          {
+            "label": "Improved Deadline Compliance",
+            "value": "95%"
+          }
         ]
       },
       {
@@ -221,10 +303,22 @@
         "description": "35% more online sales in 3 months with automated marketing",
         "fullDescription": "This store in Ponce had limited social media presence and inconsistent sales. We created automatic flows to capture leads, nurture customers, and recover abandoned carts. In 90 days: online sales +35%, 200+ new monthly leads, 3:1 marketing ROI.",
         "metrics": [
-          { "label": "35% More Online Sales", "value": "35%" },
-          { "label": "200+ Leads Captured/Month", "value": "200+" },
-          { "label": "Improved Conversion Rate", "value": "25%" },
-          { "label": "3:1 Marketing ROI", "value": "3:1" }
+          {
+            "label": "35% More Online Sales",
+            "value": "35%"
+          },
+          {
+            "label": "200+ Leads Captured/Month",
+            "value": "200+"
+          },
+          {
+            "label": "Improved Conversion Rate",
+            "value": "25%"
+          },
+          {
+            "label": "3:1 Marketing ROI",
+            "value": "3:1"
+          }
         ]
       }
     ],

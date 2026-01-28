@@ -5,10 +5,10 @@
       "label": "Idioma",
       "es": "ES",
       "en": "EN",
-      "current": "🇪🇸 Español",
+      "current": "Español",
       "options": {
-        "es": "🇪🇸 Español",
-        "en": "🇺🇸 English"
+        "es": "Español",
+        "en": "English"
       },
       "ariaLabel": "Selector de idioma",
       "selectLanguage": "Seleccionar idioma"
