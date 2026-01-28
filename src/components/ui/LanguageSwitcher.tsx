@@ -7,12 +7,12 @@ export function LanguageSwitcher() {
 
   return (
     <div className="flex items-center gap-2">
-      <span className="hidden lg:block text-xs text-gray-500 uppercase tracking-wide">
+      <span className="hidden lg:block text-xs text-text-muted uppercase tracking-wide transition-colors">
         {t('header.lang.label')}
       </span>
-      <div className="relative flex items-center p-1 bg-white/5 backdrop-blur-md rounded-full border border-white/10">
+      <div className="relative flex items-center p-1 bg-surface backdrop-blur-md rounded-full border border-border transition-colors">
         <motion.div
-          className="absolute inset-y-1 bg-white rounded-full shadow-lg"
+          className="absolute inset-y-1 bg-text rounded-full shadow-lg transition-colors"
           initial={false}
           animate={{
             width: '50%',
@@ -25,8 +25,8 @@ export function LanguageSwitcher() {
           type="button"
           onClick={() => i18n.changeLanguage('es')}
           aria-pressed={lang === 'es'}
-          className={`relative z-10 px-3 py-1.5 text-sm font-bold rounded-full transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[#814AC8] focus-visible:ring-offset-2 focus-visible:ring-offset-black ${
-            lang === 'es' ? 'text-black' : 'text-gray-400 hover:text-white'
+          className={`relative z-10 px-3 py-1.5 text-sm font-bold rounded-full transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-primary focus-visible:ring-offset-2 focus-visible:ring-offset-background ${
+            lang === 'es' ? 'text-background' : 'text-text-muted hover:text-text'
           }`}
         >
           {t('header.lang.es')}
@@ -35,8 +35,8 @@ export function LanguageSwitcher() {
           type="button"
           onClick={() => i18n.changeLanguage('en')}
           aria-pressed={lang === 'en'}
-          className={`relative z-10 px-3 py-1.5 text-sm font-bold rounded-full transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[#814AC8] focus-visible:ring-offset-2 focus-visible:ring-offset-black ${
-            lang === 'en' ? 'text-black' : 'text-gray-400 hover:text-white'
+          className={`relative z-10 px-3 py-1.5 text-sm font-bold rounded-full transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-primary focus-visible:ring-offset-2 focus-visible:ring-offset-background ${
+            lang === 'en' ? 'text-background' : 'text-text-muted hover:text-text'
           }`}
         >
           {t('header.lang.en')}

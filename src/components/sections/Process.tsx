@@ -17,7 +17,7 @@ export default function Process() {
   const labels = t('process.labels', { returnObjects: true }) as any
 
   return (
-    <section id="process" className="py-20 md:py-32 bg-black relative">
+    <section id="process" className="py-20 md:py-32 bg-background relative transition-colors">
       <div className="container mx-auto px-4">
         <motion.div
           variants={staggerContainer}
@@ -31,10 +31,10 @@ export default function Process() {
             variants={fadeInUp}
             className="text-center mb-16"
           >
-             <h2 className="text-3xl md:text-5xl font-bold mb-6 text-white">
+             <h2 className="text-3xl md:text-5xl font-bold mb-6 text-text transition-colors">
               {t('process.title')}
             </h2>
-            <p className="text-xl text-gray-400 max-w-3xl mx-auto">
+            <p className="text-xl text-text-muted max-w-3xl mx-auto transition-colors">
               {t('process.subtitle')}
             </p>
           </motion.div>
@@ -58,27 +58,27 @@ export default function Process() {
                         <IconComponent className="w-8 h-8 text-white" />
                       </div>
                       <div>
-                        <div className="text-sm font-semibold text-gray-400">{step.step}</div>
-                        <h3 className="text-2xl font-bold text-white">{step.title}</h3>
+                        <div className="text-sm font-semibold text-text-muted transition-colors">{step.step}</div>
+                        <h3 className="text-2xl font-bold text-text transition-colors">{step.title}</h3>
                       </div>
                     </div>
-                    <p className="mt-4 text-gray-400 leading-relaxed">{step.description}</p>
+                    <p className="mt-4 text-text-muted leading-relaxed transition-colors">{step.description}</p>
                   </div>
 
                   {/* Step Content */}
                   <div className="lg:w-3/4 w-full">
                     {step.analysis && (
-                      <div className="bg-white/5 border border-white/10 rounded-2xl p-6 backdrop-blur-sm">
+                      <div className="bg-surface border border-border rounded-2xl p-6 backdrop-blur-sm transition-colors">
                         <div className="grid grid-cols-2 md:grid-cols-3 gap-4">
                           {step.analysis.map((item: string) => (
                             <div
                               key={item}
-                              className="bg-black/50 border border-white/5 rounded-lg p-4 text-center hover:border-white/20 transition-colors"
+                              className="bg-background/50 border border-border rounded-lg p-4 text-center hover:border-border transition-colors"
                             >
-                              <div className="text-sm text-gray-500 mb-1 flex items-center justify-center gap-1">
+                              <div className="text-sm text-text-muted mb-1 flex items-center justify-center gap-1 transition-colors">
                                  <Activity className="w-3 h-3" /> {labels.checking}
                               </div>
-                              <div className="font-medium text-gray-200">{item}</div>
+                              <div className="font-medium text-text transition-colors">{item}</div>
                             </div>
                           ))}
                         </div>
@@ -86,9 +86,9 @@ export default function Process() {
                     )}
 
                     {step.code && (
-                      <div className="bg-[#1e1e1e] border border-white/10 rounded-2xl overflow-hidden shadow-2xl">
-                        <div className="flex items-center justify-between px-4 py-3 border-b border-white/5 bg-white/5">
-                          <div className="text-sm font-mono text-gray-400 flex items-center gap-2">
+                      <div className="bg-[#1e1e1e] border border-border rounded-2xl overflow-hidden shadow-2xl transition-colors">
+                        <div className="flex items-center justify-between px-4 py-3 border-b border-border bg-surface transition-colors">
+                          <div className="text-sm font-mono text-text-muted flex items-center gap-2 transition-colors">
                              <Terminal className="w-4 h-4" /> plan_implementacion.py
                           </div>
                           <div className="flex space-x-1.5">
@@ -104,18 +104,18 @@ export default function Process() {
                     )}
 
                     {step.integration && (
-                      <div className="bg-white/5 border border-white/10 rounded-2xl p-6 backdrop-blur-sm">
+                      <div className="bg-surface border border-border rounded-2xl p-6 backdrop-blur-sm transition-colors">
                         <div className="flex flex-col md:flex-row items-center justify-between gap-8">
                           <div className="flex-1 w-full">
-                             <h4 className="text-lg font-semibold mb-4 text-white">{labels.ourSolution}</h4>
+                             <h4 className="text-lg font-semibold mb-4 text-text transition-colors">{labels.ourSolution}</h4>
                             <div className="space-y-3">
                               {step.integration.ourStack.map((item: string) => (
                                 <div
                                   key={item}
-                                  className="flex items-center space-x-3 bg-black/40 border border-white/5 rounded-lg p-3"
+                                  className="flex items-center space-x-3 bg-background/40 border border-border rounded-lg p-3 transition-colors"
                                 >
                                   <div className="w-2 h-2 rounded-full bg-green-500 shadow-[0_0_10px_rgba(34,197,94,0.5)]" />
-                                  <span className="text-gray-200">{item}</span>
+                                  <span className="text-text transition-colors">{item}</span>
                                 </div>
                               ))}
                             </div>
@@ -128,15 +128,15 @@ export default function Process() {
                           </div>
 
                           <div className="flex-1 w-full">
-                             <h4 className="text-lg font-semibold mb-4 text-white">{labels.yourStack}</h4>
+                             <h4 className="text-lg font-semibold mb-4 text-text transition-colors">{labels.yourStack}</h4>
                             <div className="space-y-3">
                               {step.integration.yourStack.map((item: string) => (
                                 <div
                                   key={item}
-                                  className="flex items-center space-x-3 bg-black/40 border border-white/5 rounded-lg p-3"
+                                  className="flex items-center space-x-3 bg-background/40 border border-border rounded-lg p-3 transition-colors"
                                 >
                                   <div className="w-2 h-2 rounded-full bg-blue-500 shadow-[0_0_10px_rgba(59,130,246,0.5)]" />
-                                  <span className="text-gray-200">{item}</span>
+                                  <span className="text-text transition-colors">{item}</span>
                                 </div>
                               ))}
                             </div>
@@ -146,24 +146,24 @@ export default function Process() {
                     )}
 
                     {step.optimization && (
-                      <div className="bg-white/5 border border-white/10 rounded-2xl p-6 backdrop-blur-sm">
+                      <div className="bg-surface border border-border rounded-2xl p-6 backdrop-blur-sm transition-colors">
                         <div className="space-y-4">
                           {step.optimization.map((item: any, idx: number) => (
                             <div
                               key={idx}
-                              className="flex items-center justify-between bg-black/40 border border-white/5 rounded-lg p-4 group hover:border-white/20 transition-all"
+                              className="flex items-center justify-between bg-background/40 border border-border rounded-lg p-4 group hover:border-border transition-all"
                             >
                               <div className="flex items-center space-x-4">
                                 <div className="w-10 h-10 rounded-lg bg-gradient-to-br from-orange-500/20 to-red-500/20 flex items-center justify-center">
                                   <TrendingUp className="w-5 h-5 text-orange-400" />
                                 </div>
                                 <div>
-                                  <div className="font-semibold text-white">{item.system}</div>
-                                  <div className="text-sm text-gray-500">{item.improvement}</div>
+                                  <div className="font-semibold text-text transition-colors">{item.system}</div>
+                                  <div className="text-sm text-text-muted transition-colors">{item.improvement}</div>
                                 </div>
                               </div>
-                              <button className="p-2 hover:bg-white/10 rounded-lg transition-colors">
-                                <ChevronRight className="w-5 h-5 text-gray-500 group-hover:text-white" />
+                              <button className="p-2 hover:bg-surface-hover rounded-lg transition-colors">
+                                <ChevronRight className="w-5 h-5 text-text-muted group-hover:text-text transition-colors" />
                               </button>
                             </div>
                           ))}

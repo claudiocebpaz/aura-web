@@ -27,21 +27,21 @@ export default function Footer() {
   }
 
   return (
-    <footer className="bg-black border-t border-white/10 pt-20 pb-10">
+    <footer className="bg-background border-t border-border pt-20 pb-10 transition-colors">
       <div className="container mx-auto px-6 max-w-7xl">
         <div className="grid grid-cols-1 lg:grid-cols-4 gap-12 lg:gap-20 mb-20">
 
           {/* Brand Column */}
           <div className="lg:col-span-1">
             <Link to="/" className="flex items-center space-x-2 mb-6">
-              <div className="w-8 h-8 rounded-lg bg-white flex items-center justify-center">
-                <span className="text-black font-bold text-lg">A</span>
+              <div className="w-8 h-8 rounded-lg bg-text flex items-center justify-center transition-colors">
+                <span className="text-background font-bold text-lg">A</span>
               </div>
-              <span className="text-xl font-bold text-white tracking-tight">
+              <span className="text-xl font-bold text-text tracking-tight transition-colors">
                 {t('header.brand')}
               </span>
             </Link>
-            <p className="text-gray-400 mb-8 leading-relaxed">
+            <p className="text-text-muted mb-8 leading-relaxed transition-colors">
               {t('footer.brandDescription')}
             </p>
 
@@ -51,7 +51,7 @@ export default function Footer() {
                 <a
                   key={i}
                   href="#"
-                  className="w-10 h-10 rounded-full bg-white/5 flex items-center justify-center text-gray-400 hover:bg-white hover:text-black transition-all duration-300"
+                  className="w-10 h-10 rounded-full bg-surface flex items-center justify-center text-text-muted hover:bg-text hover:text-background transition-all duration-300"
                 >
                   <Icon className="w-5 h-5" />
                 </a>
@@ -62,13 +62,13 @@ export default function Footer() {
           {/* Links Columns */}
           {Object.entries(footerLinks).map(([category, links]) => (
             <div key={category}>
-              <h3 className="text-white font-bold mb-6">{category}</h3>
+              <h3 className="text-text font-bold mb-6 transition-colors">{category}</h3>
               <ul className="space-y-4">
                 {links.map((link) => (
                   <li key={link.label}>
                     <Link
                       to={link.href}
-                      className="text-gray-400 hover:text-white transition-colors"
+                      className="text-text-muted hover:text-text transition-colors"
                     >
                       {link.label}
                     </Link>
@@ -81,20 +81,20 @@ export default function Footer() {
         </div>
 
         {/* Newsletter Wide Section */}
-        <div className="border-t border-white/10 pt-12 pb-12">
+        <div className="border-t border-border pt-12 pb-12 transition-colors">
           <div className="flex flex-col md:flex-row items-center justify-between gap-8">
             <div>
-              <h3 className="text-2xl font-bold text-white mb-2">{t('footer.newsletter.title')}</h3>
-              <p className="text-gray-400">{t('footer.newsletter.subtitle')}</p>
+              <h3 className="text-2xl font-bold text-text mb-2 transition-colors">{t('footer.newsletter.title')}</h3>
+              <p className="text-text-muted transition-colors">{t('footer.newsletter.subtitle')}</p>
             </div>
             <div className="w-full md:w-auto min-w-[300px]">
               <div className="relative">
                 <input
                   type="email"
                   placeholder={t('footer.newsletter.placeholder')}
-                  className="w-full pl-6 pr-12 py-4 bg-white/5 border border-white/10 rounded-full text-white placeholder-gray-500 focus:outline-none focus:border-[#814AC8] focus:ring-1 focus:ring-[#814AC8] transition-all"
+                  className="w-full pl-6 pr-12 py-4 bg-surface border border-border rounded-full text-text placeholder-text-muted/50 focus:outline-none focus:border-primary focus:ring-1 focus:ring-primary transition-all"
                 />
-                <button className="absolute right-2 top-1/2 -translate-y-1/2 w-8 h-8 bg-[#814AC8] rounded-full flex items-center justify-center text-white hover:bg-[#6c3da3] transition-colors">
+                <button className="absolute right-2 top-1/2 -translate-y-1/2 w-8 h-8 bg-primary rounded-full flex items-center justify-center text-white hover:bg-primary/90 transition-colors">
                   <ArrowRight className="w-4 h-4" />
                 </button>
               </div>
@@ -103,13 +103,13 @@ export default function Footer() {
         </div>
 
         {/* Bottom Bar */}
-        <div className="border-t border-white/10 pt-8 flex flex-col md:flex-row justify-between items-center gap-4">
-          <div className="text-gray-500 text-sm">
+        <div className="border-t border-border pt-8 flex flex-col md:flex-row justify-between items-center gap-4 transition-colors">
+          <div className="text-text-muted text-sm transition-colors">
             © {new Date().getFullYear()} {t('header.brand')}. {t('footer.copyright')}
           </div>
-          <div className="flex space-x-6 text-sm text-gray-500">
-            <Link to="/" className="hover:text-white transition-colors">{t('footer.privacy')}</Link>
-            <Link to="/" className="hover:text-white transition-colors">{t('footer.terms')}</Link>
+          <div className="flex space-x-6 text-sm text-text-muted">
+            <Link to="/" className="hover:text-text transition-colors">{t('footer.privacy')}</Link>
+            <Link to="/" className="hover:text-text transition-colors">{t('footer.terms')}</Link>
           </div>
         </div>
       </div>

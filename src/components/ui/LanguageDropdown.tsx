@@ -61,7 +61,7 @@ export function LanguageDropdown() {
         aria-expanded={isOpen}
         aria-haspopup="listbox"
         aria-label={t('header.lang.selectLanguage')}
-        className="group flex items-center gap-2 px-4 py-2 bg-white/5 backdrop-blur-md border border-white/10 rounded-full hover:bg-white/10 hover:border-white/20 transition-all duration-300 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[#814AC8] focus-visible:ring-offset-2 focus-visible:ring-offset-black"
+        className="group flex items-center gap-2 px-4 py-2 bg-surface backdrop-blur-md border border-border rounded-full hover:bg-surface-hover hover:border-border transition-all duration-300 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-primary focus-visible:ring-offset-2 focus-visible:ring-offset-background"
         whileHover={{ scale: 1.02 }}
         whileTap={{ scale: 0.98 }}
       >
@@ -73,7 +73,7 @@ export function LanguageDropdown() {
           {currentLanguage.flag}
         </motion.span>
         
-        <span className="hidden sm:inline text-sm font-medium text-white/90 group-hover:text-white transition-colors">
+        <span className="hidden sm:inline text-sm font-medium text-text/90 group-hover:text-text transition-colors">
           {currentLanguage.label}
         </span>
 
@@ -81,7 +81,7 @@ export function LanguageDropdown() {
           animate={{ rotate: isOpen ? 180 : 0 }}
           transition={{ duration: 0.2 }}
         >
-          <ChevronDown className="w-4 h-4 text-white/60 group-hover:text-white/90 transition-colors" />
+          <ChevronDown className="w-4 h-4 text-text/60 group-hover:text-text/90 transition-colors" />
         </motion.div>
       </motion.button>
 
@@ -92,7 +92,7 @@ export function LanguageDropdown() {
             animate={{ opacity: 1, y: 0, scale: 1 }}
             exit={{ opacity: 0, y: -10, scale: 0.95 }}
             transition={{ duration: 0.2, ease: [0.16, 1, 0.3, 1] }}
-            className="absolute top-full mt-2 right-0 min-w-[180px] bg-black/80 backdrop-blur-xl border border-white/10 rounded-2xl shadow-2xl shadow-purple-500/10 overflow-hidden"
+            className="absolute top-full mt-2 right-0 min-w-[180px] bg-background/80 backdrop-blur-xl border border-border rounded-2xl shadow-2xl shadow-primary/10 overflow-hidden transition-colors"
             role="listbox"
           >
             {languages.map((language, index) => {
@@ -107,11 +107,11 @@ export function LanguageDropdown() {
                   role="option"
                   aria-selected={isSelected}
                   className={`w-full flex items-center gap-3 px-4 py-3 text-left transition-all duration-200 ${
-                    !isLast ? 'border-b border-white/5' : ''
+                    !isLast ? 'border-b border-border' : ''
                   } ${
                     isSelected 
-                      ? 'bg-white/10 text-white' 
-                      : 'text-white/70 hover:bg-white/5 hover:text-white'
+                      ? 'bg-surface-hover text-text' 
+                      : 'text-text/70 hover:bg-surface hover:text-text'
                   }`}
                   whileHover={{ x: 4 }}
                   transition={{ duration: 0.15 }}
@@ -132,7 +132,7 @@ export function LanguageDropdown() {
                   {isSelected && (
                     <motion.div
                       layoutId="selected-indicator"
-                      className="w-2 h-2 rounded-full bg-[#814AC8] shadow-[0_0_8px_rgba(129,74,200,0.6)]"
+                      className="w-2 h-2 rounded-full bg-primary shadow-[0_0_8px_rgba(129,74,200,0.6)]"
                       initial={{ scale: 0 }}
                       animate={{ scale: 1 }}
                       transition={{ type: "spring", stiffness: 500, damping: 30 }}

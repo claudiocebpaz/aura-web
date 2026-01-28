@@ -65,6 +65,28 @@
   }
 }
 
+/* Enhanced glassmorphism for light theme */
+[data-theme="light"] .glass {
+  background: var(--color-surface);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border: 1px solid var(--color-border);
+  box-shadow: 0 2px 8px rgba(129, 74, 200, 0.06),
+              0 0 0 1px rgba(129, 74, 200, 0.02);
+}
+
+[data-theme="light"] .glass-button {
+  background: rgba(129, 74, 200, 0.08);
+  border: 1px solid rgba(129, 74, 200, 0.2);
+  color: var(--color-primary);
+}
+
+[data-theme="light"] .glass-button:hover {
+  background: rgba(129, 74, 200, 0.12);
+  border-color: rgba(129, 74, 200, 0.3);
+  box-shadow: 0 4px 12px rgba(129, 74, 200, 0.1);
+}
+
 /* Estilos base */
 :root {
   color-scheme: dark;
@@ -75,6 +97,27 @@
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+/* Light theme overrides */
+[data-theme="light"] {
+  --color-background: #F9F8FC;
+  --color-surface: rgba(129, 74, 200, 0.04);
+  --color-surface-hover: rgba(129, 74, 200, 0.08);
+  --color-text: #1A1625;
+  --color-text-muted: #6B5F7A;
+  --color-border: rgba(129, 74, 200, 0.12);
+  --color-primary-glow: rgba(129, 74, 200, 0.25);
+  --gradient-glow: radial-gradient(
+    circle at center,
+    rgba(129, 74, 200, 0.15) 0%,
+    transparent 70%
+  );
+  
+  color-scheme: light;
+  background-color: var(--color-background);
+  color: var(--color-text);
 }
 
 body {
@@ -88,4 +131,18 @@ body {
 ::selection {
   background: var(--color-primary);
   color: white;
+}
+
+/* Theme transition utilities */
+* {
+  transition: background-color 0.3s ease, border-color 0.3s ease, color 0.3s ease;
+}
+
+/* Shadow utilities for light theme */
+[data-theme="light"] .shadow-glow {
+  box-shadow: 0 8px 32px rgba(129, 74, 200, 0.12);
+}
+
+[data-theme="light"] .shadow-card {
+  box-shadow: 0 2px 8px rgba(129, 74, 200, 0.06);
 }
