@@ -1,29 +1,13 @@
 import { useState } from 'react'
 import { motion, AnimatePresence } from 'framer-motion'
 import { Star, ChevronLeft, ChevronRight, Quote } from 'lucide-react'
+import { useTranslation } from 'react-i18next'
 
-const testimonials = [
-  {
-    name: 'James Carter',
-    role: 'CEO at TechFlow Solutions',
-    content: 'AI automation transformed our operations by eliminating repetitive tasks and improving efficiency. Scaling our workflow has never been easier!',
-    rating: 5,
-  },
-  {
-    name: 'Sophia Martinez',
-    role: 'Operations Manager at NexaCorp',
-    content: 'With AI, we cut manual work and improved accuracy. Our team now focuses on high-impact tasks while automation handles the rest!',
-    rating: 5,
-  },
-  {
-    name: 'David Reynolds',
-    role: 'Head of Sales at GrowthPeak',
-    content: 'AI-driven insights doubled our sales efficiency. We now engage leads at the right time with smarter, data-backed decisions!',
-    rating: 5,
-  },
-]
+
 
 export default function Testimonials() {
+  const { t } = useTranslation()
+  const testimonials = t('testimonials.testimonials', { returnObjects: true }) as any[]
   const [currentIndex, setCurrentIndex] = useState(0)
 
   const nextTestimonial = () => {
@@ -40,9 +24,9 @@ export default function Testimonials() {
       <div className="absolute top-0 right-0 w-[600px] h-[600px] bg-[#814AC8] opacity-5 blur-[100px] rounded-full pointer-events-none" />
 
       <div className="container mx-auto px-6 relative z-10">
-        <div className="text-center mb-20">
-          <h2 className="text-4xl md:text-5xl font-bold text-white mb-6">What our clients say</h2>
-          <p className="text-xl text-gray-400">Trusted by fast-growing companies worldwide.</p>
+         <div className="text-center mb-20">
+          <h2 className="text-4xl md:text-5xl font-bold text-white mb-6">{t('testimonials.title')}</h2>
+          <p className="text-xl text-gray-400">{t('testimonials.subtitle')}</p>
         </div>
 
         <div className="relative max-w-4xl mx-auto">
@@ -75,7 +59,7 @@ export default function Testimonials() {
             >
               <Quote className="w-12 h-12 text-[#814AC8] mb-8 opacity-50" />
 
-              <p className="text-2xl md:text-3xl font-medium text-white mb-8 leading-relaxed">
+               <p className="text-2xl md:text-3xl font-medium text-white mb-8 leading-relaxed">
                 "{testimonials[currentIndex].content}"
               </p>
 
@@ -90,7 +74,7 @@ export default function Testimonials() {
                 </div>
 
                 <div className="flex gap-1">
-                  {[...Array(testimonials[currentIndex].rating)].map((_, i) => (
+                  {[...Array(5)].map((_, i) => (
                     <Star key={i} className="w-5 h-5 fill-[#814AC8] text-[#814AC8]" />
                   ))}
                 </div>
@@ -124,15 +108,12 @@ export default function Testimonials() {
 
         </div>
 
-        {/* Logos Grid */}
+          {/* Logos Grid */}
         <div className="mt-24 pt-12 border-t border-white/5">
-          <p className="text-center text-gray-500 mb-8 uppercase tracking-widest text-sm font-semibold">Trusted by Innovative Teams</p>
+          <p className="text-center text-gray-500 mb-8 uppercase tracking-widest text-sm font-semibold">{t('testimonials.trustedBy')}</p>
           <div className="flex flex-wrap justify-center gap-8 md:gap-16 opacity-50 grayscale hover:grayscale-0 transition-all duration-500">
-            {/* Simple text placeholders for logos as per design mockups or reuse existing images if available. 
-                    I'll use text for now to match strict code requirements unless images needed. 
-                    Actually, let's use Lucide icons or simple text blocks to simulate logos. */}
-            {['Acme Corp', 'Global Tech', 'Nebula', 'Circle', 'FoxRun'].map((logo, i) => (
-              <div key={i} className="text-xl font-bold text-white">{logo}</div>
+            {(t('testimonials.sectors', { returnObjects: true }) as string[]).map((sector: string, i: number) => (
+              <div key={i} className="text-xl font-bold text-white">{sector}</div>
             ))}
           </div>
         </div>

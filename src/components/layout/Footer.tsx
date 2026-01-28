@@ -1,7 +1,10 @@
 import { Link } from '@tanstack/react-router'
 import { Twitter, Linkedin, Instagram, ArrowRight } from 'lucide-react'
+import { useTranslation } from 'react-i18next'
 
 export default function Footer() {
+  const { t } = useTranslation()
+
   const footerLinks = {
     Product: [
       { label: 'Features', href: '#features' },
@@ -32,14 +35,14 @@ export default function Footer() {
           <div className="lg:col-span-1">
             <Link to="/" className="flex items-center space-x-2 mb-6">
               <div className="w-8 h-8 rounded-lg bg-white flex items-center justify-center">
-                <span className="text-black font-bold text-lg">X</span>
+                <span className="text-black font-bold text-lg">A</span>
               </div>
               <span className="text-xl font-bold text-white tracking-tight">
-                Xtract
+                {t('header.brand')}
               </span>
             </Link>
             <p className="text-gray-400 mb-8 leading-relaxed">
-              Intelligent automation for modern businesses. Streamline operations with cutting-edge AI.
+              {t('footer.brandDescription')}
             </p>
 
             {/* Social Links */}
@@ -75,29 +78,20 @@ export default function Footer() {
             </div>
           ))}
 
-          {/* Newsletter Column (Optional replacement for one link column or extra) */}
-          {/* In this design, I'll put it below or integrated if needed, but for now 4 cols is standard. 
-               Let's add the newsletter as a separate block or replace the last column if we want.
-               Actually, let's keep it simple as reference usually has it. 
-               Re-checking reference: 4 columns typically implies links. 
-               I'll add the Newsletter aligned with brand or separate. 
-               Let's put it in the brand column for compactness or a new row?
-               Actually, let's Stick to the 4-column grid. I will add a "Stay in the loop" section.
-           */}
         </div>
 
         {/* Newsletter Wide Section */}
         <div className="border-t border-white/10 pt-12 pb-12">
           <div className="flex flex-col md:flex-row items-center justify-between gap-8">
             <div>
-              <h3 className="text-2xl font-bold text-white mb-2">Subscribe to our newsletter</h3>
-              <p className="text-gray-400">Get the latest updates on AI automation.</p>
+              <h3 className="text-2xl font-bold text-white mb-2">{t('footer.newsletter.title')}</h3>
+              <p className="text-gray-400">{t('footer.newsletter.subtitle')}</p>
             </div>
             <div className="w-full md:w-auto min-w-[300px]">
               <div className="relative">
                 <input
                   type="email"
-                  placeholder="Enter your email"
+                  placeholder={t('footer.newsletter.placeholder')}
                   className="w-full pl-6 pr-12 py-4 bg-white/5 border border-white/10 rounded-full text-white placeholder-gray-500 focus:outline-none focus:border-[#814AC8] focus:ring-1 focus:ring-[#814AC8] transition-all"
                 />
                 <button className="absolute right-2 top-1/2 -translate-y-1/2 w-8 h-8 bg-[#814AC8] rounded-full flex items-center justify-center text-white hover:bg-[#6c3da3] transition-colors">
@@ -111,11 +105,11 @@ export default function Footer() {
         {/* Bottom Bar */}
         <div className="border-t border-white/10 pt-8 flex flex-col md:flex-row justify-between items-center gap-4">
           <div className="text-gray-500 text-sm">
-            © {new Date().getFullYear()} Xtract AI. All rights reserved.
+            © {new Date().getFullYear()} {t('header.brand')}. {t('footer.copyright')}
           </div>
           <div className="flex space-x-6 text-sm text-gray-500">
-            <Link to="/" className="hover:text-white transition-colors">Privacy Policy</Link>
-            <Link to="/" className="hover:text-white transition-colors">Terms of Service</Link>
+            <Link to="/" className="hover:text-white transition-colors">{t('footer.privacy')}</Link>
+            <Link to="/" className="hover:text-white transition-colors">{t('footer.terms')}</Link>
           </div>
         </div>
       </div>
