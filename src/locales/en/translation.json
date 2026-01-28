@@ -20,15 +20,15 @@
       "caseStudies": "Case Studies",
       "pricing": "Pricing"
     },
-    "cta": "Get in touch"
+    "cta": "Contact Us"
   },
   "hero": {
     "badge": "Your Strategic Partner in Puerto Rico's Digital Transformation",
     "titleLine1": "Transform Your Puerto Rico Business",
     "titleLine2": "with AI Automation that Delivers Real Results.",
-    "subtitle": "We don't sell software, we deliver transformation. We implement complete AI automation systems so clinics, law firms, and local businesses save 15+ hours weekly, eliminate costly errors, and scale without hiring more staff.",
+    "subtitle": "Transform your Puerto Rico business with AI automation. Save 15+ hours weekly, eliminate errors, scale without hiring.",
     "primaryCta": "Schedule Your Free Automation Audit",
-    "secondaryCta": "View Success Stories on the Island"
+    "secondaryCta": "View Island Success Stories"
   },
   "footer": {
     "brandDescription": "Intelligent automation for businesses in Puerto Rico. Streamline operations with AI and ready-to-run systems.",
@@ -39,12 +39,31 @@
     },
     "copyright": "All rights reserved.",
     "privacy": "Privacy Policy",
-    "terms": "Terms of Service"
+    "terms": "Terms of Service",
+    "categories": {
+      "product": "Product",
+      "company": "Company",
+      "resources": "Resources"
+    },
+    "links": {
+      "features": "Features",
+      "pricing": "Pricing",
+      "caseStudies": "Case Studies",
+      "reviews": "Reviews",
+      "about": "About",
+      "careers": "Careers",
+      "legal": "Legal",
+      "contact": "Contact",
+      "blog": "Blog",
+      "helpCenter": "Help Center",
+      "guides": "Guides",
+      "apiStatus": "API Status"
+    }
   },
   "services": {
     "titleLine1": "We Don't Sell Software.",
     "titleLine2": "We Deliver Complete Transformation.",
-    "subtitle": "\"Done-For-You\" service with GoHighLevel: personalized implementation, training in Spanish, and continuous support. Your system will be ready from day one, no technical learning curve.",
+    "subtitle": "Complete \"Done-For-You\" service: personalized implementation, Spanish training, continuous support. Ready from day one.",
     "features": [
       {
         "title": "Personalized Implementation & Configuration",
@@ -191,7 +210,7 @@
           "SLA guarantees",
           "On-premise implementation options"
         ],
-        "buttonText": "Contact Sales"
+        "buttonText": "Schedule Enterprise Consultation"
       }
     ],
     "mostPopular": "MOST POPULAR"
@@ -329,7 +348,7 @@
   },
   "benefits": {
     "title": "Why Puerto Rico Businesses Choose Aura AI",
-    "subtitle": "Discover how AI automation transforms operations for local businesses: from clinics in Ponce to law firms in San Juan.",
+    "subtitle": "AI automation transforms Puerto Rico businesses: clinics, law firms, retailers. See the impact.",
     "benefits": [
       {
         "title": "Save 15+ Hours Weekly",

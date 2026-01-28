@@ -6,23 +6,23 @@ export default function Footer() {
   const { t } = useTranslation()
 
   const footerLinks = {
-    Product: [
-      { label: 'Features', href: '#features' },
-      { label: 'Pricing', href: '#pricing' },
-      { label: 'Case Studies', href: '#case-studies' },
-      { label: 'Reviews', href: '#reviews' },
+    product: [
+      { label: t('footer.links.features'), href: '#features' },
+      { label: t('footer.links.pricing'), href: '#pricing' },
+      { label: t('footer.links.caseStudies'), href: '#case-studies' },
+      { label: t('footer.links.reviews'), href: '#reviews' },
     ],
-    Company: [
-      { label: 'About', href: '#about' },
-      { label: 'Careers', href: '#careers' },
-      { label: 'Legal', href: '#legal' },
-      { label: 'Contact', href: '#contact' },
+    company: [
+      { label: t('footer.links.about'), href: '#about' },
+      { label: t('footer.links.careers'), href: '#careers' },
+      { label: t('footer.links.legal'), href: '#legal' },
+      { label: t('footer.links.contact'), href: '#contact' },
     ],
-    Resources: [
-      { label: 'Blog', href: '#blog' },
-      { label: 'Help Center', href: '#help' },
-      { label: 'Guides', href: '#guides' },
-      { label: 'API Status', href: '#status' },
+    resources: [
+      { label: t('footer.links.blog'), href: '#blog' },
+      { label: t('footer.links.helpCenter'), href: '#help' },
+      { label: t('footer.links.guides'), href: '#guides' },
+      { label: t('footer.links.apiStatus'), href: '#status' },
     ],
   }
 
@@ -59,10 +59,12 @@ export default function Footer() {
             </div>
           </div>
 
-          {/* Links Columns */}
-          {Object.entries(footerLinks).map(([category, links]) => (
-            <div key={category}>
-              <h3 className="text-text font-bold mb-6 transition-colors">{category}</h3>
+           {/* Links Columns */}
+          {Object.entries(footerLinks).map(([categoryKey, links]) => (
+            <div key={categoryKey}>
+              <h3 className="text-text font-bold mb-6 transition-colors">
+                {t(`footer.categories.${categoryKey}`)}
+              </h3>
               <ul className="space-y-4">
                 {links.map((link) => (
                   <li key={link.label}>

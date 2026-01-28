@@ -20,31 +20,50 @@
       "caseStudies": "Casos",
       "pricing": "Planes"
     },
-    "cta": "Contactar"
+    "cta": "Contáctanos"
   },
   "hero": {
     "badge": "Tu Socio Estratégico en la Transformación Digital de Puerto Rico",
     "titleLine1": "Transforma tu Negocio en Puerto Rico",
     "titleLine2": "con Automatización IA que Genera Resultados Reales.",
-    "subtitle": "No vendemos software, entregamos transformación. Implementamos sistemas completos de automatización con IA para que clínicas, firmas legales y negocios locales ahorren 15+ horas semanales, eliminen errores costosos y escalen sin contratar más personal.",
+    "subtitle": "Transforma tu negocio en Puerto Rico con automatización IA. Ahorra 15+ horas semanales, elimina errores, escala sin contratar.",
     "primaryCta": "Agenda tu Auditoría de Automatización Gratuita",
-    "secondaryCta": "Ver Casos de Éxito en la Isla"
+    "secondaryCta": "Ver Casos de Éxito"
   },
   "footer": {
-    "brandDescription": "Automatizacion inteligente para negocios en Puerto Rico. Optimiza operaciones con IA y sistemas listos para usar.",
+    "brandDescription": "Automatización inteligente para negocios en Puerto Rico. Optimiza operaciones con IA y sistemas listos para usar.",
     "newsletter": {
-      "title": "Suscribete a nuestro newsletter",
-      "subtitle": "Recibe actualizaciones sobre automatizacion e IA.",
+      "title": "Suscríbete a nuestro newsletter",
+      "subtitle": "Recibe actualizaciones sobre automatización e IA.",
       "placeholder": "Tu email"
     },
     "copyright": "Todos los derechos reservados.",
-    "privacy": "Politica de Privacidad",
-    "terms": "Terminos de Servicio"
+    "privacy": "Política de Privacidad",
+    "terms": "Términos de Servicio",
+    "categories": {
+      "product": "Producto",
+      "company": "Empresa",
+      "resources": "Recursos"
+    },
+    "links": {
+      "features": "Características",
+      "pricing": "Planes",
+      "caseStudies": "Casos de Estudio",
+      "reviews": "Reseñas",
+      "about": "Acerca de",
+      "careers": "Carreras",
+      "legal": "Legal",
+      "contact": "Contacto",
+      "blog": "Blog",
+      "helpCenter": "Centro de Ayuda",
+      "guides": "Guías",
+      "apiStatus": "Estado API"
+    }
   },
   "services": {
     "titleLine1": "No Vendemos Software.",
     "titleLine2": "Entregamos Transformación Completa.",
-    "subtitle": "Servicio \"Hecho Para Ti\" con GoHighLevel: implementación personalizada, capacitación en español y soporte continuo. Tu sistema estará listo desde el día uno, sin curva de aprendizaje técnica.",
+    "subtitle": "Servicio completo \"Hecho Para Ti\": implementación personalizada, capacitación en español, soporte continuo. Listo desde el día uno.",
     "features": [
       {
         "title": "Implementación & Configuración Personalizada",
@@ -80,19 +99,19 @@
   },
   "process": {
     "title": "Nuestro Proceso para Transformar tu Negocio en Puerto Rico",
-    "subtitle": "Disenamos, implementamos y capacitamos en sistemas de automatizacion que te ayudan a trabajar de manera mas inteligente, no mas dificil.",
+    "subtitle": "Diseñamos, implementamos y capacitamos en sistemas de automatización que te ayudan a trabajar de manera más inteligente, no más difícil.",
     "steps": [
       {
         "step": "Paso 1",
-        "title": "Diagnostico y Auditoria",
-        "description": "Evaluamos tus necesidades e identificamos oportunidades de automatizacion para optimizar flujos de trabajo y mejorar eficiencia.",
+        "title": "Diagnóstico y Auditoría",
+        "description": "Evaluamos tus necesidades e identificamos oportunidades de automatización para optimizar flujos de trabajo y mejorar eficiencia.",
         "analysis": [
           "Analizando flujo de trabajo actual...",
-          "Revision de sistemas",
-          "Evaluacion de procesos",
-          "Verificacion de velocidad",
-          "Identificacion de trabajo manual",
-          "Deteccion de tareas repetitivas"
+          "Revisión de sistemas",
+          "Evaluación de procesos",
+          "Verificación de velocidad",
+          "Identificación de trabajo manual",
+          "Detección de tareas repetitivas"
         ]
       },
       {
@@ -104,7 +123,7 @@
       {
         "step": "Paso 3",
         "title": "Implementacion y Configuracion",
-        "description": "Implementamos y configuramos las soluciones de automatizacion en tu infraestructura existente con minima interrupcion.",
+        "description": "Implementamos y configuramos las soluciones de automatización en tu infraestructura existente con mínima interrupción.",
         "integration": {
           "ourStack": [
             "Plataforma GoHighLevel",
@@ -148,7 +167,7 @@
   "pricing": {
     "title": "Inversion que Genera Resultados",
     "subtitle": "Planes disenados para negocios en Puerto Rico que buscan transformacion real.",
-    "note": "Cada plan incluye configuracion inicial personalizada. Los precios mensuales incluyen licencia de plataforma y soporte continuo.",
+    "note": "Cada plan incluye configuración inicial personalizada. Los precios mensuales incluyen licencia de plataforma y soporte continuo.",
     "plans": [
       {
         "name": "Transformacion Basica",
@@ -158,7 +177,7 @@
           "Configuracion inicial personalizada",
           "Migracion de datos basica",
           "Soporte por email y chat",
-          "1 sesion de capacitacion",
+          "1 sesión de capacitación",
           "Acceso a plataforma GoHighLevel",
           "Actualizaciones mensuales"
         ],
@@ -172,7 +191,7 @@
           "Configuracion avanzada con flujos personalizados",
           "Integraciones con herramientas clave",
           "Soporte prioritario 24/7",
-          "3 sesiones de capacitacion",
+          "3 sesiones de capacitación",
           "Acceso a plataforma premium",
           "Reportes de ROI mensuales",
           "Comunidad de clientes PR"
@@ -191,7 +210,7 @@
           "Garantias SLA",
           "Opciones de implementacion on-premise"
         ],
-        "buttonText": "Contactar Ventas"
+        "buttonText": "Agendar Consulta Empresarial"
       }
     ],
     "mostPopular": "MAS POPULAR"
@@ -329,7 +348,7 @@
   },
   "benefits": {
     "title": "Por Qué Negocios en Puerto Rico Eligen Aura AI",
-    "subtitle": "Descubre cómo la automatización con IA transforma operaciones para negocios locales: desde clínicas en Ponce hasta firmas legales en San Juan.",
+    "subtitle": "Automatización con IA transforma negocios en Puerto Rico: clínicas, firmas legales, retailers. Conoce el impacto.",
     "benefits": [
       {
         "title": "Ahorra 15+ Horas Semanales",
@@ -373,24 +392,24 @@
     "subtitle": "Todo lo que necesitas saber sobre nuestros servicios y facturacion.",
     "questions": [
       {
-        "question": "Como puede la automatizacion con IA ayudar a mi negocio en Puerto Rico?",
-        "answer": "La automatizacion con IA puede optimizar tareas repetitivas, mejorar precision, reducir costos operativos y proveer insights basados en datos para mejor toma de decisiones. Ayuda a negocios a escalar eficientemente sin aumentar carga laboral."
+        "question": "¿Cómo puede la automatización con IA ayudar a mi negocio en Puerto Rico?",
+        "answer": "La automatización con IA puede optimizar tareas repetitivas, mejorar precisión, reducir costos operativos y proveer insights basados en datos para mejor toma de decisiones. Ayuda a negocios a escalar eficientemente sin aumentar carga laboral."
       },
       {
-        "question": "Es dificil integrar la automatizacion con IA?",
-        "answer": "Para nada! Nuestro equipo maneja todo el proceso de integracion con minima interrupcion a tus flujos de trabajo existentes. Aseguramos compatibilidad con tus sistemas actuales y proveemos capacitacion completa."
+        "question": "¿Es difícil integrar la automatización con IA?",
+        "answer": "¡Para nada! Nuestro equipo maneja todo el proceso de integración con mínima interrupción a tus flujos de trabajo existentes. Aseguramos compatibilidad con tus sistemas actuales y proveemos capacitación completa."
       },
       {
         "question": "Que industrias en Puerto Rico pueden beneficiarse?",
         "answer": "Practicamente todas! Hemos implementado soluciones exitosas para healthcare, finanzas, retail, manufactura, logistica y servicios profesionales en la isla. Cada solucion se adapta a necesidades especificas del sector."
       },
       {
-        "question": "Necesito conocimiento tecnico para usar la automatizacion con IA?",
-        "answer": "No se requiere expertise tecnico. Nuestras soluciones tienen interfaces amigables, y proveemos capacitacion completa y soporte continuo. Tu te enfocas en tu negocio mientras nuestra IA maneja la automatizacion."
+        "question": "¿Necesito conocimiento técnico para usar la automatización con IA?",
+        "answer": "No se requiere expertise técnico. Nuestras soluciones tienen interfaces amigables, y proveemos capacitación completa y soporte continuo. Tú te enfocas en tu negocio mientras nuestra IA maneja la automatización."
       },
       {
         "question": "Que tipo de soporte ofrecen?",
-        "answer": "Ofrecemos soporte al cliente 24/7, gerentes de cuenta dedicados para clientes empresariales, documentacion completa, sesiones de capacitacion regulares y monitoreo proactivo del sistema para asegurar desempeno optimo."
+        "answer": "Ofrecemos soporte al cliente 24/7, gerentes de cuenta dedicados para clientes empresariales, documentación completa, sesiones de capacitación regulares y monitoreo proactivo del sistema para asegurar desempeño óptimo."
       }
     ],
     "stillHaveQuestions": "Aun tienes preguntas?",
