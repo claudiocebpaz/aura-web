@@ -2,12 +2,13 @@ import React from 'react'
 import { motion } from 'framer-motion'
 import { Workflow, Bot, TrendingUp, Check } from 'lucide-react'
 import { useTranslation } from 'react-i18next'
-import serviceImplImg from '../../assets/images/service-implementation.png'
-import serviceTrainImg from '../../assets/images/service-training.png'
-import serviceDevImg from '../../assets/images/service-development.png'
 
 const icons = [Workflow, Bot, TrendingUp]
-const images = [serviceImplImg, serviceTrainImg, serviceDevImg]
+const images = [
+  '/images/service-implementation.png',
+  '/images/service-training.png',
+  '/images/service-development.png'
+]
 
 
 
